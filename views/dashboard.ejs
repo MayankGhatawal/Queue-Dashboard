@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link href="/css/output.css" rel="stylesheet">
+</head>
+<body class="min-h-screen bg-gray-100">
+  <div class="container mx-auto py-12 px-6">
+    <div class="bg-white p-8 rounded-lg shadow-md">
+      <h1 class="text-4xl font-bold text-center text-gray-800">Welcome, <%= username %>!</h1>
+      <p class="text-lg text-center text-gray-600 mt-4">Here is your dashboard to manage requests.</p>
+
+      <div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="bg-indigo-500 text-white p-6 rounded-lg shadow-md">
+          <h2 class="text-xl font-bold">Manage Requests</h2>
+          <p class="mt-2">Handle and track all your queued requests efficiently.</p>
+        </div>
+        <div class="bg-green-500 text-white p-6 rounded-lg shadow-md">
+          <h2 class="text-xl font-bold">Analytics</h2>
+          <p class="mt-2">View statistics and performance of your requests.</p>
+        </div>
+        <div class="bg-pink-500 text-white p-6 rounded-lg shadow-md">
+          <h2 class="text-xl font-bold">Account Settings</h2>
+          <p class="mt-2">Manage your personal account settings here.</p>
+        </div>
+        <div class="bg-yellow-500 text-white p-6 rounded-lg shadow-md">
+          <h2 class="text-xl font-bold">Support</h2>
+          <p class="mt-2">Get help with any issues or questions you may have.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
